@@ -3,6 +3,9 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
 # Define the ANN model
+input_dim = 10  # Replace 10 with the actual input dimension
+output_dim = 2  # Replace 2 with the actual output dimension
+
 model = Sequential()
 model.add(Dense(64, activation='relu', input_dim=input_dim))
 model.add(Dense(64, activation='relu'))
