@@ -5,7 +5,7 @@ images and then do connected component analysis. You can use the following code"
 import cv2
 import numpy as np
 # Load the image
-image = cv2.imread('EXP9 Test.jpeg', 0)  # Replace 'image.jpg' with the actual image file path
+image = cv2.imread('EXP10 Test.png', 0)  # Replace 'image.jpg' with the actual image file path
 
 # Threshold the image
 _, thresholded = cv2.threshold(image, 127, 255, cv2.THRESH_BINARY)
