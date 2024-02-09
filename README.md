@@ -8,7 +8,6 @@ The repository contains the list of awesome✨ &amp; cool Python Exercises!
 <a href="https://github.com/topics/python"><img alt="Python" src="https://img.shields.io/badge/PYTHON%20-%23E34F26.svg?&style=for-the-badge"/></a>
 <br>
 <br>
-<br>
 <a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
 <a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
 <a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
@@ -27,36 +26,59 @@ The repository contains the list of awesome✨ &amp; cool Python Exercises!
 
 </div>
 
+<br>
 
-<h4>1. a) Write a python program to implement List operations (Nested List, Length, Concatenation, Membership, Iteration, Indexing and Slicing)?</h4>
-<p><a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-1(A).py">EXP-1(a) Code</a></p>
+## Experiment List
 
-<h4>1. b) Write a python program to implement List methods (Add, Append, Extend & Delete).</h4>
-<p><a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-1(B).py">EXP-1(b) Code</a></p>
+1. **List Operations:**
+    - Implement various operations on lists such as Nested List, Length, Concatenation, Membership, Iteration, Indexing, and Slicing.
+    - [EXP-1(a) Code](https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-1(A).py)
+   
+2. **List Methods:**
+    - Implement List methods like Add, Append, Extend & Delete.
+    - [EXP-1(b) Code](https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-1(B).py)
 
-<h4>2. Write a program to implement Hangman game using python.</h4>
-<p><a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-2.py">EXP-2 Code</a></p>
+3. **Hangman Game:**
+    - Implementation of Hangman game using Python.
+    - [EXP-2 Code](https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-2.py)
 
-<h4>3. Build an Artificial Neural Network by implementing the Back propagation algorithm and test the same using appropriate data sets.</h4>
-<p><a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-3.py">EXP-3 Code</a></p>
+4. **Artificial Neural Network:**
+    - Build an Artificial Neural Network using the Back propagation algorithm and test it with appropriate datasets.
+    - [EXP-3 Code](https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-3.py)
 
-<h4>4. Write a python program to remove stop words for a given passage from a text file using NLTK?</h4>
-<p><a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-4.py">EXP-4 Code</a></p>
+5. **Stop Words Removal:**
+    - Python program to remove stop words from a given passage in a text file using NLTK.
+    - [EXP-4 Code](https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-4.py)
 
-<h4>5. Write a python program to implement stemming for a given sentence using NLTK?</h4>
-<p><a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-5.py">EXP-5 Code</a></p>
+6. **Stemming Implementation:**
+    - Implement stemming for a given sentence using NLTK.
+    - [EXP-5 Code](https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-5.py)
 
-<h4>6. Write a python program to POS (Parts of Speech) tagging for the give sentence using NLTK?</h4>
-<p><a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-6.py">EXP-6 Code</a></p>
+7. **Parts of Speech Tagging:**
+    - Python program to perform Parts of Speech (POS) tagging for a given sentence using NLTK.
+    - [EXP-6 Code](https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-6.py)
 
-<h4>7. Write a python program to implement Lemmatization using NLTK?</h4>
-<p><a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-7.py">EXP-7 Code</a></p>
+8. **Lemmatization:**
+    - Implement Lemmatization using NLTK.
+    - [EXP-7 Code](https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-7.py)
 
-<h4>8. Write a python program to for Text Classification for the give sentence using NLTK?</h4>
-<p><a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-8.py">EXP-8 Code</a></p>
+9. **Text Classification:**
+    - Python program for Text Classification for a given sentence using NLTK.
+    - [EXP-8 Code](https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-8.py)
 
-<h4>9. Read any image that you want and save it in gray scale. Now rotate the image that you have read. Write the image to the disk.</h4>
-<p><a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-9.py">EXP-9 Code</a></p>
+10. **Image Manipulation:**
+    - Read an image, save it in grayscale, and rotate the image before writing it to the disk.
+    - [EXP-9 Code](https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-9.py)
 
-<h4>10. For the image given below (provided with the lab handout), apply the connected component labelling and count the total number of white objects. First threshold the images and then do connected component analysis.</h4>
-<p><a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-10.py">EXP-10 Code</a></p>
+11. **Connected Component Labelling:**
+    - Apply connected component labelling on an image to count the total number of white objects.
+    - [EXP-10 Code](https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-10.py)
+
+## Open Source Contribution
+
+Contributions to this repository are welcome! Please feel free to fork this project and submit pull requests to enhance its functionality or fix any issues. If you have any suggestions or find bugs, please open an issue.
+
+## Analytics
+
+[![Repo Size](https://img.shields.io/github/repo-size/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB.svg)](https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB)
+[![License](https://img.shields.io/github/license/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB.svg)](https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/LICENSE)
