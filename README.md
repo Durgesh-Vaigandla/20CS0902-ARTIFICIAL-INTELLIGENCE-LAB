@@ -1,5 +1,33 @@
-<h1>20CS0902-ARTIFICIAL-INTELLIGENCE-LAB</h1>
+# 20CS0902-ARTIFICIAL-INTELLIGENCE-LAB
+The repository contains the list of awesome✨ &amp; cool Python Exercises!
+
+<h1 style="align=center">ARTIFICIAL INTELLIGENCE LAB EXPERIMENTS USING PYTHON</h1>
 <h3>20CS0902 ARTIFICIAL INTELLIGENCE LAB Experiments</h3>
+
+<div align="center">
+<a href="https://github.com/topics/python"><img alt="Python" src="https://img.shields.io/badge/PYTHON%20-%23E34F26.svg?&style=for-the-badge"/></a>
+<br>
+<br>
+<br>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
+<a href="https://github.com/Durgesh-Vaigandla/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?v=103"></a>
+<br>
+
+<br>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/graphs/contributors"><img src="https://img.shields.io/github/contributors/Ayushparikh-code/Web-dev-mini-projects?color=brightgreen"></a>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/stargazers"><img src="https://img.shields.io/github/stars/Ayushparikh-code/Web-dev-mini-projects?color=0059b3"></a>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/network/members"><img src="https://img.shields.io/github/forks/Ayushparikh-code/Web-dev-mini-projects?color=yellow"></a>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/issues"><img src="https://img.shields.io/github/issues/Ayushparikh-code/Web-dev-mini-projects?color=0059b3"></a>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/Ayushparikh-code/Web-dev-mini-projects?color=yellow"></a>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/pulls"><img src="https://img.shields.io/github/issues-pr/Ayushparikh-code/Web-dev-mini-projects?color=brightgreen"></a>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Ayushparikh-code/Web-dev-mini-projects?color=0059b3"></a> 
+
+</div>
+
+
 <h4>1. a) Write a python program to implement List operations (Nested List, Length, Concatenation, Membership, Iteration, Indexing and Slicing)?</h4>
 <p><a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-1(A).py">EXP-1(a) Code</a></p>
 
