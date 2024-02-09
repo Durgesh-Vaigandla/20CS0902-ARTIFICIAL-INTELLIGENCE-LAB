@@ -17,13 +17,13 @@ The repository contains the list of awesome✨ &amp; cool Python Exercises!
 <br>
 
 <br>
-<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/graphs/contributors"><img src="https://img.shields.io/github/contributors/Ayushparikh-code/Web-dev-mini-projects?color=brightgreen"></a>
-<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/stargazers"><img src="https://img.shields.io/github/stars/Ayushparikh-code/Web-dev-mini-projects?color=0059b3"></a>
-<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/network/members"><img src="https://img.shields.io/github/forks/Ayushparikh-code/Web-dev-mini-projects?color=yellow"></a>
-<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/issues"><img src="https://img.shields.io/github/issues/Ayushparikh-code/Web-dev-mini-projects?color=0059b3"></a>
-<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/Ayushparikh-code/Web-dev-mini-projects?color=yellow"></a>
-<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/pulls"><img src="https://img.shields.io/github/issues-pr/Ayushparikh-code/Web-dev-mini-projects?color=brightgreen"></a>
-<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Ayushparikh-code/Web-dev-mini-projects?color=0059b3"></a> 
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/graphs/contributors"><img src="https://img.shields.io/github/contributors/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB?color=brightgreen"></a>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/stargazers"><img src="https://img.shields.io/github/stars/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB?color=0059b3"></a>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/network/members"><img src="https://img.shields.io/github/forks/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB?color=yellow"></a>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/issues"><img src="https://img.shields.io/github/issues/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB?color=0059b3"></a>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB?color=yellow"></a>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/pulls"><img src="https://img.shields.io/github/issues-pr/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB?color=brightgreen"></a>
+<a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB?color=0059b3"></a> 
 
 </div>
 
