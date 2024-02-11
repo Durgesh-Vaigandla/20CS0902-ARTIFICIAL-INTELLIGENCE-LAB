@@ -26,6 +26,9 @@ The repository contains the list of awesome✨ &amp; cool Python Exercises!
 </div>
 
 <br>
+
+## HOW TO CONTRIBUTE ? 👷 
+
 **1.** Fork [this](https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB) repository.
 
 **2.** Clone the forked repository.
@@ -69,7 +72,7 @@ git push -u origin <your_branch_name>
 
 **8.** Create a Pull Request!
 
-**Congratulations!** Sit and relax till we review your PR, you've made your contribution to (https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB) project
+**Congratulations!** Sit and relax till we review your PR, you've made your contribution to (https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB) 
 
 <br>
 
@@ -143,8 +146,8 @@ git push -u origin <your_branch_name>
  
 <table>
 <tr>
-<td align="center"><a href="https://github.com/Durgesh-Vaigandla"><img src="https://avatars.githubusercontent.com/u/60268067?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">DURGESH VAIGANDLA</h4>
-<a href="https://www.linkedin.com/in/vaigandladurgesh"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
+<td align="center"><a href="https://github.com/Durgesh-Vaigandla"><img src="https://avatars.githubusercontent.com/u/150946641?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">DURGESH VAIGANDLA</h4>
+<a href="https://www.linkedin.com/in/vaigandladurgesh/"><img src="https://www.freepnglogos.com/uploads/linkedin-logo-design-30.png" width="32px" height="32px"></a></td>
 </tr>
 </table>
 
