@@ -26,18 +26,54 @@ The repository contains the list of awesome✨ &amp; cool Python Exercises!
 </div>
 
 <br>
-<h1 style="align=center">ARTIFICIAL INTELLIGENCE LAB EXPERIMENTS USING PYTHON</h1>
+**1.** Fork [this](https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB) repository.
+
+**2.** Clone the forked repository.
+
+```terminal
+git clone https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB 
+```
+
+**3.** Navigate to the project directory.
+
+```terminal
+cd 20CS0902-ARTIFICIAL-INTELLIGENCE-LAB
+```
+
+**4.**  MAKE A NEW FILES WITH YOUR EXPERIMENT NAME INSIDE 20CS0902-ARTIFICIAL-INTELLIGENCE-LAB.
 <br>
-    <style>
- th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-         th {
-            background-color: #f2f2f2;
-        }
-    </style>
+
+**5.**  Also Add the experiment in README file.
+          
+ 
+<br>
+
+**6.** Create a new branch.
+
+```terminal
+git checkout -b <your_branch_name>
+```
+
+**7.** Add & Commit your changes.
+
+```terminal
+  git add .
+  git commit -m "<your_commit_message>"
+```
+
+**7.** Push your local branch to the remote repository.
+
+```terminal
+git push -u origin <your_branch_name>
+```
+
+**8.** Create a Pull Request!
+
+**Congratulations!** Sit and relax till we review your PR, you've made your contribution to (https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB) project
+
+<br>
+
+<br>
 <h2>Experiment List</h2>
     <table style="width: 100%; border-collapse: collapse;">
         <tr>
@@ -101,6 +137,17 @@ The repository contains the list of awesome✨ &amp; cool Python Exercises!
             <td><a href="https://github.com/Durgesh-Vaigandla/20CS0902-ARTIFICIAL-INTELLIGENCE-LAB/blob/main/EXP-10.py">EXP-10 Code</a></td>
         </tr>
     </table>
+
+## Repo Maintainers 👷👷:
+
+ 
+<table>
+<tr>
+<td align="center"><a href="https://github.com/Durgesh-Vaigandla"><img src="https://avatars.githubusercontent.com/u/60268067?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">DURGESH VAIGANDLA</h4>
+<a href="https://www.linkedin.com/in/vaigandladurgesh"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
+</tr>
+</table>
+
 ## Open Source Contribution
 
 Contributions to this repository are welcome! Please feel free to fork this project and submit pull requests to enhance its functionality or fix any issues. If you have any suggestions or find bugs, please open an issue.
