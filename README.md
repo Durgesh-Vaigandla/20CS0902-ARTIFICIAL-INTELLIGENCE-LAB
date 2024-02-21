@@ -148,8 +148,7 @@ git push -u origin <your_branch_name>
 <tr>
 <td align="center"><a href="https://github.com/Durgesh-Vaigandla"><img src="https://avatars.githubusercontent.com/u/150946641?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">DURGESH VAIGANDLA</h4>
 <a href="https://www.linkedin.com/in/vaigandladurgesh/"><img src="https://www.freepnglogos.com/uploads/linkedin-logo-design-30.png" width="32px" height="32px"></a></td>
-</tr>
-<tr>
+
 <td align="center"><a href="https://github.com/pawan-kumar-bhavanasi"><img src="https://avatars.githubusercontent.com/u/147645954?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">PAVAN KUMAR BHAVANASI</h4>
 <a href="https://www.linkedin.com/in/pavan-kumar-bhavanasi/"><img src="https://www.freepnglogos.com/uploads/linkedin-logo-design-30.png" width="32px" height="32px"></a></td>
 </tr>
