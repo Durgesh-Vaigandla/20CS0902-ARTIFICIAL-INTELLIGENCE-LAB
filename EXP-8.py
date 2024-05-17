@@ -1,47 +1,157 @@
-# Import the necessary libraries
-import nltk
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.naive_bayes import MultinomialNB
+import prettytable
 
-# Define the sentence to be classified
-sentence = "This is an example sentence for text classification."
+print('\n----- Classification using Naïve Bayes -----\n')
 
-# Tokenize the sentence
-tokens = word_tokenize(sentence)
+total_documents = int(input("Enter the Total Number of documents: "))
+doc_class = []
+i = 0
+keywords = []
 
-# Remove stopwords
-stop_words = set(stopwords.words("english"))
-filtered_tokens = [token for token in tokens if token.lower() not in stop_words]
+while not i == total_documents:
+    doc_class.append([])
+    text = input(f"\nEnter the text of Doc-{i+1}: ").lower()
+    clas = input(f"Enter the class of Doc-{i+1}: ")
+    doc_class[i].append(text.split())
+    doc_class[i].append(clas)
+    keywords.extend(text.split())
+    i += 1
 
-# Lemmatize the tokens
-lemmatizer = WordNetLemmatizer()
-lemmatized_tokens = [lemmatizer.lemmatize(token) for token in filtered_tokens]
+keywords = set(keywords)
+keywords = list(keywords)
+keywords.sort()
 
-# Convert the tokens to a string
-processed_sentence = " ".join(lemmatized_tokens)
+to_find = input("\nEnter the Text to classify using Naive Bayes: ").lower().split()
 
-# Define the training data
-training_data = [
-    ("This is a positive sentence.", "positive"),
-    ("This is a negative sentence.", "negative"),
-    ("This is a neutral sentence.", "neutral")
-]
+probability_table = []
 
-# Extract the features from the training data
-vectorizer = TfidfVectorizer()
-X_train = vectorizer.fit_transform([data[0] for data in training_data])
-y_train = [data[1] for data in training_data]
+for i in range(total_documents):
+    probability_table.append([])
+    for j in keywords:
+        probability_table[i].append(0)
 
-# Train the classifier
-classifier = MultinomialNB()
-classifier.fit(X_train, y_train)
+doc_id = 1
 
-# Classify the sentence
-X_test = vectorizer.transform([processed_sentence])
-predicted_class = classifier.predict(X_test)[0]
+for i in range(total_documents):
+    for k in range(len(keywords)):
+        if keywords[k] in doc_class[i][0]:
+            probability_table[i][k] += doc_class[i][0].count(keywords[k])
 
-# Print the predicted class
-print("Predicted class:", predicted_class)
+print('\n')
+
+keywords.insert(0, 'Document ID')
+keywords.append("Class")
+Prob_Table = prettytable.PrettyTable()
+Prob_Table.field_names = keywords
+Prob_Table.title = 'Probability of Documents'
+
+x = 0
+
+for i in probability_table:
+    i.insert(0, x + 1)
+    i.append(doc_class[x][1])
+    Prob_Table.add_row(i)
+    x += 1
+
+print(Prob_Table)
+print('\n')
+
+for i in probability_table:
+    i.pop(0)
+
+totalpluswords = 0
+totalnegwords = 0
+totalplus = 0
+totalneg = 0
+vocabulary = len(keywords) - 2
+
+for i in probability_table:
+    if i[len(i) - 1] == "+":
+        totalplus += 1
+        totalpluswords += sum(i[0:len(i) - 1])
+    else:
+        totalneg += 1
+        totalnegwords += sum(i[0:len(i) - 1])
+
+keywords.pop(0)
+keywords.pop(len(keywords) - 1)
+
+# For positive class
+temp = []
+
+for i in to_find:
+    count = 0
+    x = keywords.index(i)
+    for j in probability_table:
+        if j[len(j) - 1] == "+":
+            count += j[x]
+    temp.append(count)
+    count = 0
+
+for i in range(len(temp)):
+    temp[i] = format((temp[i] + 1) / (vocabulary + totalpluswords), ".4f")
+
+temp = [float(f) for f in temp]
+
+print("\nProbabilities of Each word to be in '+' class are: ")
+
+h = 0
+
+for i in to_find:
+    print(f"P({i}/+) = {temp[h]}")
+    h += 1
+
+print()
+
+pplus = float(format((totalplus) / (totalplus + totalneg), ".8f"))
+
+for i in temp:
+    pplus *= i
+
+pplus = format(pplus, ".8f")
+
+print("Probability of Given text to be in '+' class is:", pplus)
+print()
+
+# For Negative class
+temp = []
+
+for i in to_find:
+    count = 0
+    x = keywords.index(i)
+    for j in probability_table:
+        if j[len(j) - 1] == "-":
+            count += j[x]
+    temp.append(count)
+    count = 0
+
+for i in range(len(temp)):
+    temp[i] = format((temp[i] + 1) / (vocabulary + totalnegwords), ".4f")
+
+temp = [float(f) for f in temp]
+
+print("\nProbabilities of Each word to be in '-' class are: ")
+
+h = 0
+
+for i in to_find:
+    print(f"P({i}/-) = {temp[h]}")
+    h += 1
+
+print()
+
+pneg = float(format((totalneg) / (totalplus + totalneg), ".8f"))
+
+for i in temp:
+    pneg *= i
+
+pneg = format(pneg, ".8f")
+
+print("Probability of Given text to be in '-' class is:", pneg)
+print('\n')
+
+if pplus > pneg:
+    print(f"Using Naive Bayes Classification, We can clearly say that the given text belongs to '+' class with probability {pplus}")
+else:
+    print(f"Using Naive Bayes Classification, We can clearly say that the given text belongs to '-' class with probability {pneg}")
+
+print('\n')
