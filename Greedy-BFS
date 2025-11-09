@@ -1,0 +1,41 @@
+import heapq  
+
+def greedy_best_first_search(graph, start, goal, heuristic): 
+    visited = set()  
+    frontier = [(heuristic[start], start)]  
+    print("Greedy Best-First Search Path:", end=" ") 
+    while frontier:  
+        _, node = heapq.heappop(frontier)  
+        if node in visited:  
+            continue  
+        print(node, end=" ")  
+        if node == goal:  
+            break  
+        visited.add(node)  
+        for neighbor in graph[node]:  
+            if neighbor not in visited:  
+                heapq.heappush(frontier, (heuristic[neighbor], neighbor))  
+
+graph = { 
+    'S': ['A', 'B'], 
+    'A': ['C', 'D'], 
+    'B': ['E', 'F'], 
+    'C': [], 
+    'D': [], 
+    'E': [], 
+    'F': [] 
+} 
+
+heuristic = { 
+    'S': 10, 
+    'A': 6, 
+    'B': 4, 
+    'C': 4, 
+    'D': 7, 
+    'E': 1, 
+    'F': 0 
+} 
+
+start_node = 'S' 
+goal_node = 'F' 
+greedy_best_first_search(graph, start_node, goal_node, heuristic)
