@@ -7,18 +7,18 @@ graph = {
     '8': [] 
 }
 def bfs(graph, start_node):
-    visited = []   # Keeps track of visited nodes
-    queue = []     # Queue for BFS traversal
+    visited = []  
+    queue = []     
 
-    queue.append(start_node)     # Start node is added to queue
-    visited.append(start_node)   # Mark start node as visited
+    queue.append(start_node)     
+    visited.append(start_node)   
     while queue:
-    m = queue.pop(0)         # Dequeue from front
-    print(m, end=" ")        # Print current node
+    m = queue.pop(0)         
+    print(m, end=" ")        
 
-    for neighbour in graph[m]:   # Explore neighbors
+    for neighbour in graph[m]:   
         if neighbour not in visited:
-            visited.append(neighbour)   # Mark visited
-            queue.append(neighbour)     # Enqueue neighbor
+            visited.append(neighbour)   
+            queue.append(neighbour)     
 print("Following is the Breadth-First Search:") 
-bfs(graph, '5')  # Call bfs with graph and the starting node
+bfs(graph, '5')  
